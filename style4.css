@@ -1,0 +1,16 @@
+.videos .video1{
+    display: flex;
+    justify-content: space-between;
+    padding: 100%;
+
+}
+
+.videos1 .titulo1 .titulo2{
+    margin-left: 170px;
+    font-size: 20px;
+}
+
+.video1 .titulo2{
+    margin-left: 700px;
+    font-size: 20px;
+}
