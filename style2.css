@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+}
+body{
+    background-color: #e4a26d;
+}
+.header{
+    background-color: rgb(182, 87, 43);
+    display: flex; /* es para justificar como queremos tratar un bloque (flexible)*/
+    justify-content: space-between; /*Separa la imagen del nav*/
+    align-items: center;
+    height: 80px;
+    padding: 10px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo .perfil{
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 400px;
+}
+
+.header .logo .perfil:hover{
+    transform: scale(1.2);
+
+}
+
+.header .nav-links li{
+    display: inline-block; /*Este es para alinear los navs*/
+    padding: 0 20px;
+    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 70;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header .nav-links li a:hover{
+    color:black
+
+}
+
+.imagenes{
+    display: flex;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.div2 .imagenes2{
+    padding: 20px;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    border-radius: 35px;
+
+}
+.title{
+    padding-left: 40px;
+    padding-top: 30px;
+    display: flex;
+    font-size: 40px;
+}
+
+.parra1{
+    padding: 40px;
+}
+
+.section1{
+    display: flex;
+}
+
+.tituo1{
+    font-size: 70px;
+    text-align: center;
+    padding-block-end: 80px;
+    padding-top: 50px;
+}
+.parrafo1{
+    padding: 40px;
+    display: flex;
+}
+.parrafo2{
+    padding: 40px;
+    display: flex;
+}
+.text2{
+    padding: 40px;
+    display: flex;
+}
+
+.div2{
+    display: flex;
+    margin: 20px;
+
+}
+
+.div3{
+    display: flex;
+    padding-block-end: 60px;
+}
+
+
