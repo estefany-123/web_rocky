@@ -1,0 +1,16 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-block-end: 60px;
+    display: flexbox;
+    text-align: center;
+    margin-left: 300px;
+}
+table, th,td{
+    border: 1px solid black;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+}
