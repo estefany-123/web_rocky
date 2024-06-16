@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+}
+body{
+    background-color: #f8bf91;
+}
+.header{
+    background-color:rgb(148, 87, 59);
+    display: flex; /* es para justificar como queremos tratar un bloque (flexible)*/
+    justify-content: space-between; /*Separa la imagen del nav*/
+    align-items: center;
+    height: 80px;
+    padding: 10px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 400px;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+
+}
+
+.header .nav-links li{
+    display: inline-block; /*Este es para alinear los navs*/
+    padding: 0 20px;
+    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 70;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header .nav-links li a:hover{
+    color:black
+
+} /*hasta aqui el header*/
+
+section {
+   display: flex;
+   align-content: space-between;
+   padding-left: 40px;
+   padding-right: 30px;
+
+}
+
+.imagenes{
+    height: 300px;
+    width: 300px;
+    text-align: left;
+    justify-content: right;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.footer{
+    background-color:rgb(148, 87, 59);
+    padding: 40px 40px;
+    align-self: flex-end;
+}
