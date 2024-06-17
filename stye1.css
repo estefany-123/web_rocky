@@ -6,7 +6,7 @@
 
 }
 body{
-    background-color: #f8bf91;
+    background-color: #ECB176;
 }
 .header{
     background-color:rgb(148, 87, 59);
@@ -56,21 +56,21 @@ body{
 } /*hasta aqui el header*/
 
 section {
+   margin: 80px;
+   padding:30px;
    display: flex;
    align-content: space-between;
-   padding-left: 40px;
-   padding-right: 30px;
 
 }
 
-.imagenes{
+img{
     height: 300px;
-    width: 300px;
+    width: auto;
     text-align: left;
+    margin-left: 80px;
     justify-content: right;
     border-radius: 30px;
     display: flex;
-    padding: 10px;
     
 }
 
