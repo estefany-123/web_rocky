@@ -6,10 +6,10 @@
 
 }
 body{
-    background-color: #e4a26d;
+    background-color: #ECB176;
 }
 .header{
-    background-color: rgb(182, 87, 43);
+    background-color: rgb(148, 87, 59);
     display: flex; /* es para justificar como queremos tratar un bloque (flexible)*/
     justify-content: space-between; /*Separa la imagen del nav*/
     align-items: center;
@@ -57,12 +57,13 @@ body{
 
 .imagenes{
     display: flex;
-    text-align: center;
-    padding-left: 150px;
+    padding-left: 300px;
+    width: 40%;
 }
 
+
 .div2 .imagenes2{
-    padding: 20px;
+    margin-left: 200px;
     justify-content: space-between;
     width: 400px;
     height: 400px;
@@ -112,6 +113,7 @@ body{
 .div3{
     display: flex;
     padding-block-end: 60px;
+    padding-left: 200px;
 }
 
 
