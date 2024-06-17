@@ -1,16 +1,42 @@
-.videos .video1{
-    display: flex;
-    justify-content: space-between;
-    padding: 100%;
-
+.titulo1{
+    margin-left: 110px;
+    font-size: 30px;
 }
 
-.videos1 .titulo1 .titulo2{
-    margin-left: 170px;
-    font-size: 20px;
+.titulo2{
+    margin-left: 200px;
+    font-size: 30px;
 }
 
-.video1 .titulo2{
-    margin-left: 700px;
-    font-size: 20px;
+.titulo3{
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.titulo4{
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+
+
+.videos1{
+    margin-left: 100px;
+}
+
+.videos1 .vide1{
+    margin-right: 140px;
+}
+
+.videos2{
+    margin-left: 100px;
+}
+
+.videos2 .vide3{
+    margin-right: 140px;
+}
+
+
+.footer{
+    margin-top: 60px;
 }
