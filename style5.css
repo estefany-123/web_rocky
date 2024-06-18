@@ -1,0 +1,76 @@
+.formulario{
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.formulario{
+    background: white;
+    padding: 20%;
+}
+
+.todo{
+    display: flex;
+    margin-left: 150px;
+}
+
+.titu1{
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 150px;
+}
+
+.subti{
+    margin-left: 150px;
+    margin-block-end: 40px;
+}
+
+.dos{
+    display: flex;
+    margin-block-end: 40px;
+}
+
+.name{
+    margin-top: 5px;
+    display: flex;
+    margin-right: 50px;
+}
+
+.apellido{
+    margin-top: 5px;
+    display: flex;
+    margin-right: 50px;
+}
+
+.email{
+    display: flex;
+}
+
+.inpumensa{
+    display: flex;
+    width: 560px;
+    height: 80px;
+}
+
+.imagen img{
+    display: flex;
+    width: 300px;
+    height: 350px;
+
+    margin-left: 200PX;
+}
+
+.buton{
+    padding: 10px 250px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+
+
+
+
