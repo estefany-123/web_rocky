@@ -55,16 +55,26 @@ body{
 
 } /*hasta aqui el header*/
 
+.titu{
+    margin-top: 10px;
+    font-size: 60px;
+}
+.subtitu{
+    font-size: 30px;
+}
 section {
-   margin: 80px;
-   padding:30px;
-   display: flex;
-   align-content: space-between;
+    margin: 10px 30px 60px 50px;
+    padding:30px;
+    display: flex;
+    align-content: space-between;
+}
 
+section p{
+    margin-top: 50px;
 }
 
 img{
-    height: 300px;
+    height: 400px;
     width: auto;
     text-align: left;
     margin-left: 80px;
